@@ -1,0 +1,32 @@
+# --- MAVEN  ---
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# --- IDEs  ---
+
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+.idea/
+*.iml
+*.iws
+
+# --- OS ---
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- LOGS AND TEMPs ---
+*.log
+temp/
+tmp/
+# (.class)
+*.class

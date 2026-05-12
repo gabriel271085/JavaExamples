@@ -1,0 +1,440 @@
+2026-05-11T21:36:19.762Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-05-11T21:36:19.762Z [INFO] [Tool.invoke]({name: appmod-list-jdks, modelId: auto, input: {
+  "sessionId": "",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples"
+}}).
+2026-05-11T21:36:19.763Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T21:36:19.807Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 25.0.3\n   📁 Path: C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot\\bin\n   🏷️ Source: PATH\n\n2. Java 26.0.1\n   📁 Path: C:\\Users\\gabriel.cayoja\\.jdks\\openjdk-26.0.1\\bin\n   🏷️ Source: others\n\nTotal: 2 JDK installation(s) found"
+}}).
+2026-05-11T21:36:19.807Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-05-11T21:36:19.842Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-05-11T21:36:19.843Z [INFO] [Tool.invoke]({name: appmod-list-mavens, modelId: auto, input: {
+  "sessionId": "",
+  "includeVersion": true,
+  "projectPath": "c:\\AutomationTasks\\JavaExamples"
+}}).
+2026-05-11T21:36:19.843Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T21:36:29.410Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following maven installations in your system:\n\n1. Maven 3.9.15\n   📁 Path: C:\\AutomationTasks\\Tools\\Maven\\bin\n   🏷️ Source: MAVEN_HOME,PATH\n\nTotal: 1 Maven installation(s) found"
+}}).
+2026-05-11T21:36:29.411Z [INFO] ----------------------invoked appmod-list-mavens----------------------
+2026-05-11T21:36:48.544Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T21:36:48.544Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "status": "succeeded",
+  "details": {
+    "baseJdkVersion": "21",
+    "targetVersion": "Java 25"
+  }
+}}).
+2026-05-11T21:36:48.544Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T21:36:48.545Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T21:36:48.545Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T21:36:48.563Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T21:36:48.564Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "status": "succeeded",
+  "details": {
+    "baseJdkVersion": "21",
+    "targetVersion": "Java 25"
+  }
+}}).
+2026-05-11T21:36:48.564Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T21:36:48.565Z [INFO] Project c:\AutomationTasks\JavaExamples is not a maven project, try to get java version from gradle
+2026-05-11T21:36:48.568Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20260511213619,\nSession Dir: c:\\AutomationTasks\\JavaExamples\\.github\\java-upgrade\\20260511213619"
+}}).
+2026-05-11T21:36:48.568Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T21:36:48.587Z [INFO] Try to get java version from gradle config files: 
+2026-05-11T21:36:48.588Z [INFO] Try to get java version from gradle properties: undefined
+2026-05-11T21:36:48.588Z [INFO] Project java version: 8
+2026-05-11T21:36:48.597Z [WARN] [ReportEventTool] Full project info unavailable, attempting lightweight fallback: UserError: Failed to detect build tool for the project at c:\AutomationTasks\JavaExamples. There are child Maven/Gradle projects detected: "java_examples". Would you like to use one of them instead?
+2026-05-11T21:36:48.598Z [INFO] Project c:\AutomationTasks\JavaExamples is not a maven project, try to get java version from gradle
+2026-05-11T21:36:48.605Z [INFO] Try to get java version from gradle config files: 
+2026-05-11T21:36:48.605Z [INFO] Try to get java version from gradle properties: undefined
+2026-05-11T21:36:52.641Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T21:36:52.642Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:36:52.642Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T21:36:52.643Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T21:36:52.643Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T21:36:52.677Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T21:36:52.678Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:36:52.678Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T21:36:52.679Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planGenerationStarted' reported!\nSession ID: 20260511213619,\nSession Dir: c:\\AutomationTasks\\JavaExamples\\.github\\java-upgrade\\20260511213619"
+}}).
+2026-05-11T21:36:52.679Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T21:37:08.615Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T21:37:08.615Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planReviewed",
+  "phase": "plan",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:37:08.615Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T21:37:08.616Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T21:37:08.616Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T21:37:08.635Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T21:37:08.635Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "planReviewed",
+  "phase": "plan",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:37:08.636Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T21:37:08.636Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planReviewed' reported!\nSession ID: 20260511213619,\nSession Dir: c:\\AutomationTasks\\JavaExamples\\.github\\java-upgrade\\20260511213619"
+}}).
+2026-05-11T21:37:08.637Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T21:37:08.874Z [INFO] ---------------------prepare appmod-confirm-upgrade-plan----------------------
+2026-05-11T21:37:08.875Z [INFO] [Tool.prepareInvocation]({name: appmod-confirm-upgrade-plan, input: {
+  "sessionId": "20260511213619"
+}}).
+2026-05-11T21:37:08.876Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T21:37:08.878Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Review [upgrade plan](file:///c:/AutomationTasks/JavaExamples/.github/java-upgrade/20260511213619/plan.md)",
+  "confirmationMessages": {
+    "title": "Plan generated",
+    "message": "Please review the generated plan and make any necessary adjustments before proceeding. You can modify the generated [`plan.md`](file:///c:/AutomationTasks/JavaExamples/.github/java-upgrade/20260511213619/plan.md) directly."
+  }
+}}).
+2026-05-11T21:37:08.879Z [INFO] ----------------------prepared appmod-confirm-upgrade-plan----------------------
+2026-05-11T21:37:39.103Z [INFO] ----------------------invoke appmod-confirm-upgrade-plan----------------------
+2026-05-11T21:37:39.103Z [INFO] [Tool.invoke]({name: appmod-confirm-upgrade-plan, modelId: auto, input: {
+  "sessionId": "20260511213619"
+}}).
+2026-05-11T21:37:39.103Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T21:37:39.104Z [INFO] Upgrade plan confirmed successfully.
+2026-05-11T21:37:39.105Z [INFO] [Tool.invoke]({result: {
+  "message": "Generated plan is reviewed and confirmed by the user! the upgrade process will start now and be tracked in markdown file: c:\\AutomationTasks\\JavaExamples\\.github\\java-upgrade\\20260511213619\\progress.md."
+}}).
+2026-05-11T21:37:39.105Z [INFO] ----------------------invoked appmod-confirm-upgrade-plan----------------------
+2026-05-11T21:37:42.486Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T21:37:42.486Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planConfirmed",
+  "phase": "plan",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:37:42.486Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T21:37:42.487Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T21:37:42.487Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T21:37:42.509Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T21:37:42.510Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "planConfirmed",
+  "phase": "plan",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:37:42.510Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T21:37:42.511Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planConfirmed' reported!\nSession ID: 20260511213619,\nSession Dir: c:\\AutomationTasks\\JavaExamples\\.github\\java-upgrade\\20260511213619"
+}}).
+2026-05-11T21:37:42.511Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T21:38:00.982Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T21:38:00.982Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planExecutionStarted",
+  "phase": "execute",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:38:00.982Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T21:38:00.983Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T21:38:00.983Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T21:38:01.005Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T21:38:01.005Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "planExecutionStarted",
+  "phase": "execute",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:38:01.006Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T21:38:01.045Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionStarted' reported!\nSession ID: 20260511213619,\nSession Dir: c:\\AutomationTasks\\JavaExamples\\.github\\java-upgrade\\20260511213619"
+}}).
+2026-05-11T21:38:01.045Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T21:38:05.411Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T21:38:05.412Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "jdkPath": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot",
+    "buildToolPath": "."
+  },
+  "event": "environmentSetup",
+  "phase": "execute",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:38:05.413Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T21:38:05.414Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T21:38:05.414Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T21:38:05.442Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T21:38:05.442Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "details": {
+    "jdkPath": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.3.9-hotspot",
+    "buildToolPath": "."
+  },
+  "event": "environmentSetup",
+  "phase": "execute",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:38:05.443Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T21:38:05.443Z [INFO] Project c:\AutomationTasks\JavaExamples is not a maven project, try to get java version from gradle
+2026-05-11T21:38:05.444Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'environmentSetup' reported!\nSession ID: 20260511213619,\nSession Dir: c:\\AutomationTasks\\JavaExamples\\.github\\java-upgrade\\20260511213619"
+}}).
+2026-05-11T21:38:05.444Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T21:38:05.448Z [INFO] Try to get java version from gradle config files: 
+2026-05-11T21:38:05.449Z [INFO] Try to get java version from gradle properties: undefined
+2026-05-11T21:38:05.449Z [INFO] Project java version: 8
+2026-05-11T21:38:05.503Z [WARN] [ReportEventTool] Full project info unavailable, attempting lightweight fallback: UserError: Failed to detect build tool for the project at c:\AutomationTasks\JavaExamples. There are child Maven/Gradle projects detected: "java_examples". Would you like to use one of them instead?
+2026-05-11T21:38:05.507Z [INFO] Project c:\AutomationTasks\JavaExamples is not a maven project, try to get java version from gradle
+2026-05-11T21:38:05.514Z [INFO] Try to get java version from gradle config files: 
+2026-05-11T21:38:05.515Z [INFO] Try to get java version from gradle properties: undefined
+2026-05-11T21:38:10.295Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T21:38:10.295Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "baselineSetup",
+  "message": "Base JDK 21 not available on system — baseline skipped. Java 25 will be verified during upgrade steps.",
+  "phase": "execute",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "skipped"
+}}).
+2026-05-11T21:38:10.296Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T21:38:10.296Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T21:38:10.297Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T21:38:10.319Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T21:38:10.320Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "baselineSetup",
+  "message": "Base JDK 21 not available on system — baseline skipped. Java 25 will be verified during upgrade steps.",
+  "phase": "execute",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "skipped"
+}}).
+2026-05-11T21:38:10.320Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T21:38:10.321Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'baselineSetup' reported!\nSession ID: 20260511213619,\nSession Dir: c:\\AutomationTasks\\JavaExamples\\.github\\java-upgrade\\20260511213619"
+}}).
+2026-05-11T21:38:10.321Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T21:38:50.104Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T21:38:50.105Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade Java Version to 25",
+    "commitId": "N/A"
+  },
+  "event": "upgradeStepCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:38:50.105Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T21:38:50.105Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T21:38:50.106Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T21:38:50.149Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T21:38:50.149Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Upgrade Java Version to 25",
+    "commitId": "N/A"
+  },
+  "event": "upgradeStepCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:38:50.149Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T21:38:50.150Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepCompleted' reported!\nSession ID: 20260511213619,\nSession Dir: c:\\AutomationTasks\\JavaExamples\\.github\\java-upgrade\\20260511213619"
+}}).
+2026-05-11T21:38:50.150Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T21:39:36.053Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T21:39:36.053Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "buildCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:39:36.054Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T21:39:36.054Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T21:39:36.054Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T21:39:36.086Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T21:39:36.086Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "buildCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:39:36.087Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T21:39:36.087Z [INFO] Project c:\AutomationTasks\JavaExamples is not a maven project, try to get java version from gradle
+2026-05-11T21:39:36.088Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'buildCompleted' reported!\nSession ID: 20260511213619,\nSession Dir: c:\\AutomationTasks\\JavaExamples\\.github\\java-upgrade\\20260511213619"
+}}).
+2026-05-11T21:39:36.088Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T21:39:36.093Z [INFO] Try to get java version from gradle config files: 
+2026-05-11T21:39:36.093Z [INFO] Try to get java version from gradle properties: undefined
+2026-05-11T21:39:36.094Z [INFO] Project java version: 8
+2026-05-11T21:39:36.115Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T21:39:36.115Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "testCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:39:36.116Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T21:39:36.117Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T21:39:36.117Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T21:39:36.162Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T21:39:36.162Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "testCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:39:36.163Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T21:39:36.164Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'testCompleted' reported!\nSession ID: 20260511213619,\nSession Dir: c:\\AutomationTasks\\JavaExamples\\.github\\java-upgrade\\20260511213619"
+}}).
+2026-05-11T21:39:36.164Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T21:39:36.183Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T21:39:36.183Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "commitId": "N/A",
+    "stepNumber": 4,
+    "stepTitle": "Final Validation"
+  },
+  "event": "upgradeValidationCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:39:36.184Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T21:39:36.184Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T21:39:36.184Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T21:39:36.264Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T21:39:36.265Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "details": {
+    "commitId": "N/A",
+    "stepNumber": 4,
+    "stepTitle": "Final Validation"
+  },
+  "event": "upgradeValidationCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:39:36.265Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T21:39:36.266Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeValidationCompleted' reported!\nSession ID: 20260511213619,\nSession Dir: c:\\AutomationTasks\\JavaExamples\\.github\\java-upgrade\\20260511213619"
+}}).
+2026-05-11T21:39:36.266Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T21:39:36.293Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T21:39:36.294Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planExecutionCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:39:36.295Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T21:39:36.295Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T21:39:36.296Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T21:39:36.367Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T21:39:36.368Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "planExecutionCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:39:36.368Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T21:39:36.371Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionCompleted' reported!\nSession ID: 20260511213619,\nSession Dir: c:\\AutomationTasks\\JavaExamples\\.github\\java-upgrade\\20260511213619"
+}}).
+2026-05-11T21:39:36.372Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-05-11T21:41:21.116Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-05-11T21:41:21.116Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "summaryGenerated",
+  "message": "Java 25 LTS upgrade completed successfully with 100% test pass rate and zero code changes required.",
+  "phase": "summarize",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:41:21.116Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-05-11T21:41:21.117Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-05-11T21:41:21.117Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-05-11T21:41:21.153Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-05-11T21:41:21.153Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "summaryGenerated",
+  "message": "Java 25 LTS upgrade completed successfully with 100% test pass rate and zero code changes required.",
+  "phase": "summarize",
+  "projectPath": "c:\\AutomationTasks\\JavaExamples\\java_examples",
+  "sessionId": "20260511213619",
+  "status": "succeeded"
+}}).
+2026-05-11T21:41:21.154Z [INFO] [Tool.invoke] do invoke.
+2026-05-11T21:41:21.155Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'summaryGenerated' reported!\nSession ID: 20260511213619,\nSession Dir: c:\\AutomationTasks\\JavaExamples\\.github\\java-upgrade\\20260511213619"
+}}).
+2026-05-11T21:41:21.155Z [INFO] ----------------------invoked appmod-report-event----------------------
